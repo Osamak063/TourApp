@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.osamakhalid.tourguideapp.MainScreen">
+    <TextView
+        android:id="@+id/famous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Famous Places"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingTop="40dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="30dp"
+        android:background="@color/yellow"
+        />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Restaurants"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+        android:background="@color/red"
+        />
+    <TextView
+        android:id="@+id/lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Language"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+        android:background="@color/green"
+        />
+    <TextView
+        android:id="@+id/dress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Dress"
+        android:textSize="@dimen/textSize"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:paddingLeft="20dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp"
+        android:background="@color/brown"
+        />
+
+</LinearLayout>
